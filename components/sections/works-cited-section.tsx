@@ -17,7 +17,7 @@ export function WorksCitedSection() {
               García Márquez, Gabriel. {"\"A Very Old Man with Enormous Wings.\""} <em>Leaf Storm 
               and Other Stories</em>, translated by Gregory Rabassa, Harper & Row, 1972, pp. 105-112. {" "}
               <a 
-                href="https://human.libretexts.org/Courses/Oxnard_College/English_102(Altman)/02:_The_Short_Story_and_the_Mystery(Enigma)/2.01:_A_Very_Old_Man_with_Enormous_Wings_by_Gabriel_Garcia_Marquez" 
+                href="https://www.ndsu.edu/pubweb/~cin101/eng282/marquez.html" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary underline underline-offset-2 hover:text-primary/80"
