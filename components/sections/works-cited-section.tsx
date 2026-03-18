@@ -24,6 +24,29 @@ export function WorksCitedSection() {
           </div>
 
           <div className="mt-8 pt-6 border-t border-border">
+            <p className="text-xs text-muted-foreground uppercase tracking-wide mb-4">Images</p>
+            
+            <div className="space-y-4">
+              <Citation>
+                Dianner. <em>Come and See the Angel</em>. Digital illustration depicting scene from 
+                {"\"A Very Old Man with Enormous Wings.\""} 
+              </Citation>
+              
+              <Citation>
+                R.E.M. <em>Losing My Religion</em> single cover artwork. Warner Bros. Records, 1991.
+              </Citation>
+
+              <Citation>
+                Portrait of Gabriel García Márquez. Photograph.
+              </Citation>
+
+              <Citation>
+                R.E.M. band photograph. Black and white promotional image.
+              </Citation>
+            </div>
+          </div>
+
+          <div className="mt-8 pt-6 border-t border-border">
             <p className="text-xs text-muted-foreground uppercase tracking-wide mb-4">Additional Resources</p>
             
             <div className="space-y-4">
@@ -42,8 +65,7 @@ export function WorksCitedSection() {
         </div>
 
         <p className="text-xs text-muted-foreground text-center mt-6">
-          This analysis was prepared as an academic project exploring literary connections 
-          between different artistic mediums.
+          This project compares a short story and a song to show how both deal with misunderstanding.
         </p>
       </div>
     </section>

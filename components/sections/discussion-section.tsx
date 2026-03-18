@@ -131,12 +131,66 @@ export function DiscussionSection() {
               )}
             </div>
 
-            <p className="text-xs text-muted-foreground mt-4 text-center">
-              Your reflection stays private and is meant for personal learning.
-            </p>
-          </div>
+<p className="text-xs text-muted-foreground mt-4 text-center">
+            Your reflection stays private and is meant for personal learning.
+          </p>
         </div>
       </div>
-    </section>
+
+      {/* Follow-up Resources */}
+      <div className="mt-12 bg-card border border-border rounded-lg p-6 sm:p-8">
+        <h3 className="font-serif text-xl font-medium text-foreground mb-4 text-center">
+          Learn More & Get Involved
+        </h3>
+        <p className="text-sm text-muted-foreground text-center mb-6">
+          Want to explore these themes further? Check out these resources:
+        </p>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <ResourceLink
+            title="HistoryMiami Museum"
+            description="Explore Miami's cultural history and immigrant stories"
+            url="https://historymiami.org"
+          />
+          <ResourceLink
+            title="Cuban Heritage Collection"
+            description="University of Miami's archive of Cuban history and culture"
+            url="https://library.miami.edu/chc"
+          />
+          <ResourceLink
+            title="StopBullying.gov"
+            description="Resources about understanding and preventing judgment"
+            url="https://www.stopbullying.gov"
+          />
+          <ResourceLink
+            title="Mental Health America"
+            description="Support for those feeling misunderstood or anxious"
+            url="https://www.mhanational.org"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  )
+}
+
+function ResourceLink({
+  title,
+  description,
+  url,
+}: {
+  title: string
+  description: string
+  url: string
+}) {
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block p-4 bg-muted rounded-lg hover:bg-muted/80 transition-colors"
+    >
+      <p className="text-sm font-medium text-foreground mb-1">{title}</p>
+      <p className="text-xs text-muted-foreground">{description}</p>
+    </a>
   )
 }

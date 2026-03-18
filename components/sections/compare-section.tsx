@@ -85,8 +85,30 @@ export function CompareSection() {
           </div>
         </div>
 
+        {/* Genre effectiveness */}
+        <div className="mt-12 grid md:grid-cols-2 gap-6">
+          <div className="bg-card border border-border rounded-lg p-6">
+            <h4 className="font-serif text-lg font-medium text-foreground mb-3">Why a Short Story Works</h4>
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              A short story lets García Márquez build a whole world with multiple characters and show 
+              how an entire community reacts to something strange. Prose gives him space to describe 
+              the angel's appearance in detail and show the villagers' behavior over time. The third-person 
+              view lets readers judge the characters from a distance, which makes the irony hit harder.
+            </p>
+          </div>
+          <div className="bg-card border border-border rounded-lg p-6">
+            <h4 className="font-serif text-lg font-medium text-foreground mb-3">Why a Song Works</h4>
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              A song can repeat phrases and use music to create an emotional experience that feels 
+              immediate and personal. The mandolin's urgency and Stipe's voice make you feel the 
+              narrator's anxiety in a way that reading words on a page cannot. Music reaches people 
+              emotionally in just a few minutes, which fits the raw, vulnerable confession of the lyrics.
+            </p>
+          </div>
+        </div>
+
         {/* Visual comparison */}
-        <div className="mt-12 bg-secondary/50 border border-border rounded-lg p-6 sm:p-8">
+        <div className="mt-8 bg-secondary/50 border border-border rounded-lg p-6 sm:p-8">
           <h3 className="font-serif text-xl font-medium text-foreground mb-4 text-center">The Key Difference</h3>
           <p className="text-muted-foreground text-center leading-relaxed">
             The short story uses narrative events and symbolism to critique society from the outside. 

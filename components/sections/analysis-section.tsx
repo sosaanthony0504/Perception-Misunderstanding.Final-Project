@@ -49,7 +49,21 @@ export function AnalysisSection() {
 
         {/* Story Analysis */}
         {activeWork === "story" && (
-          <div className="grid sm:grid-cols-2 gap-6 animate-in fade-in duration-300">
+          <div className="animate-in fade-in duration-300">
+            {/* Summary */}
+            <div className="bg-muted rounded-lg p-6 mb-6">
+              <h3 className="font-serif text-lg font-medium text-foreground mb-2">Summary</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                In this short story, a couple named Pelayo and Elisenda discover an old man with huge 
+                wings in their courtyard after a rainstorm. Instead of treating him with wonder, the 
+                villagers cage him, charge admission to see him, and treat him like a circus attraction. 
+                A priest tries to determine if he is a real angel but cannot decide. Eventually, the 
+                townspeople lose interest when a new attraction arrives. After years of neglect, the 
+                old man finally flies away, and Elisenda watches with relief.
+              </p>
+            </div>
+            
+            <div className="grid sm:grid-cols-2 gap-6">
             <AnalysisCard
               icon={<Feather className="h-5 w-5" />}
               title="Symbolism"
@@ -75,11 +89,26 @@ export function AnalysisSection() {
               content="The tone of the story is ironic and detached, which highlights the absurdity of how the villagers treat the old man. The narrator never directly criticizes them but lets their actions speak for themselves."
             />
           </div>
+          </div>
         )}
 
         {/* Song Analysis */}
         {activeWork === "song" && (
-          <div className="grid sm:grid-cols-2 gap-6 animate-in fade-in duration-300">
+          <div className="animate-in fade-in duration-300">
+            {/* Summary */}
+            <div className="bg-muted rounded-lg p-6 mb-6">
+              <h3 className="font-serif text-lg font-medium text-foreground mb-2">Summary</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                "Losing My Religion" is a song about unrequited love and the anxiety of not knowing 
+                if your feelings are returned. The narrator watches someone he cares about, wondering 
+                if he has said too much or not enough. The phrase "losing my religion" is a Southern 
+                expression that means losing your patience or composure. The song captures the 
+                feeling of being emotionally exposed and fearing that you have embarrassed yourself 
+                by revealing too much.
+              </p>
+            </div>
+            
+            <div className="grid sm:grid-cols-2 gap-6">
             <AnalysisCard
               icon={<Feather className="h-5 w-5" />}
               title="Symbolism"
@@ -104,6 +133,7 @@ export function AnalysisSection() {
               subtitle="Anxious and Vulnerable"
               content="The tone is anxious and vulnerable, reflecting the narrator's fear of rejection or misunderstanding. The mandolin's driving rhythm creates a sense of urgency that matches how it feels when you're waiting for someone to respond to your feelings."
             />
+          </div>
           </div>
         )}
 

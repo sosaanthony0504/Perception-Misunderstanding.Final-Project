@@ -4,7 +4,12 @@ export function HeroSection() {
   return (
     <section id="home" className="min-h-screen flex flex-col justify-center items-center px-4 pt-16 pb-12">
       <div className="max-w-4xl mx-auto text-center">
-        <p className="text-sm uppercase tracking-widest text-muted-foreground mb-4">
+        <div className="text-sm text-muted-foreground mb-4 space-y-1">
+          <p className="font-medium">Anthony Sosa</p>
+          <p>LIT 2000 | Dresner</p>
+          <p>March 15, 2026</p>
+        </div>
+        <p className="text-xs uppercase tracking-widest text-muted-foreground mb-4">
           A Comparative Literary Analysis
         </p>
         <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-medium text-foreground leading-tight text-balance mb-6">
