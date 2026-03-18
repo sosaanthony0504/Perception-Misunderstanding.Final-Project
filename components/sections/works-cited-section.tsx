@@ -15,11 +15,27 @@ export function WorksCitedSection() {
           <div className="space-y-6">
             <Citation>
               García Márquez, Gabriel. {"\"A Very Old Man with Enormous Wings.\""} <em>Leaf Storm 
-              and Other Stories</em>, translated by Gregory Rabassa, Harper & Row, 1972, pp. 105-112.
+              and Other Stories</em>, translated by Gregory Rabassa, Harper & Row, 1972, pp. 105-112. {" "}
+              <a 
+                href="https://www.ndsu.edu/pubweb/~cin101/eng282/marquez.html" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary underline underline-offset-2 hover:text-primary/80"
+              >
+                Read the full story
+              </a>
             </Citation>
             
             <Citation>
-              R.E.M. {"\"Losing My Religion.\""} <em>Out of Time</em>, Warner Bros. Records, 1991.
+              R.E.M. {"\"Losing My Religion.\""} <em>Out of Time</em>, Warner Bros. Records, 1991. {" "}
+              <a 
+                href="https://www.youtube.com/watch?v=xwtdhWltSIg" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary underline underline-offset-2 hover:text-primary/80"
+              >
+                Watch the music video
+              </a>
             </Citation>
           </div>
 
