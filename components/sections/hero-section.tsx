@@ -6,7 +6,7 @@ export function HeroSection() {
       <div className="max-w-4xl mx-auto text-center">
         <div className="text-sm text-muted-foreground mb-4 space-y-1">
           <p className="font-medium">Anthony Sosa</p>
-          <p>LIT 2000 | Miami Dade College Dual Enrollment</p>
+          <p>LIT 2000 | Dresner</p>
           <p>March 15, 2026</p>
         </div>
         <p className="text-xs uppercase tracking-widest text-muted-foreground mb-4">

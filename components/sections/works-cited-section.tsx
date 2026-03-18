@@ -65,8 +65,7 @@ export function WorksCitedSection() {
         </div>
 
         <p className="text-xs text-muted-foreground text-center mt-6">
-          This analysis was prepared as an academic project exploring literary connections 
-          between different artistic mediums.
+          This project compares a short story and a song to show how both deal with misunderstanding.
         </p>
       </div>
     </section>
